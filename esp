@@ -203,9 +203,9 @@ UserInputService.InputBegan:Connect(function(Input)
 end)
 
 if _G.DefaultSettings == true then
-    _G.TeamCheck = false
+    _G.TeamCheck = true
     _G.FromMouse = false
-    _G.FromCenter = false
+    _G.FromCenter = true
     _G.FromBottom = true
     _G.TracersVisible = true
     _G.TracerColor = Color3.fromRGB(40, 90, 255)
